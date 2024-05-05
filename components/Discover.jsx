@@ -5,8 +5,8 @@ export const Discover = () => {
     <div className="bg-white pb-32">
       <div className="flex sm:flex-row flex-col justify-center items-center gap-10 mx-10">
         <div className="flex flex-col gap-6 sm:w-1/2 w-full">
-          <h1 className="text-black text-4xl font-semibold">Discover Chargers On-the-Go</h1>
-          <h1 className="text-black text-xl font-normal">
+          <h1 className="lato-font text-black text-4xl font-semibold">Discover Chargers On-the-Go</h1>
+          <h1 className="lato-font text-black text-xl font-normal">
             Open Voltron app to quickly find the nearest charging station around you. <br /> <br />
             Find the number of available chargers, types and speeds at each location. Monitor your charging session in real time and enjoy seamless contactless payment.
             <div className="flex gap-6 mt-6">
