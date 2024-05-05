@@ -57,8 +57,7 @@ export async function getAllChargeStations() {
     }
   `;
 
-  const variables = { limit: 10, offset: 0 }; // You can adjust these variables as per your requirements
-
+  const variables = { limit: 10, offset: 0 }; 
   try {
     const data = await graphQLClient.request(query, variables);
     return data.publicChargeStation;
